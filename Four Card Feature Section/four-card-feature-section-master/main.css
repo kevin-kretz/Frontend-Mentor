@@ -21,8 +21,8 @@ p {
 }
 
 body {
-  width: calc(100vw - 2rem);
-  padding: 1rem;
+  width: calc(100vw - 4rem);
+  padding: 2rem;
   background-color: hsl(0, 0%, 98%);
 }
 
@@ -43,7 +43,7 @@ h1 {
 .card {
   background-color: #ffffff;
   padding: 1.75rem;
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   box-shadow: 0px 5px 15px rgba(97, 155, 221, 0.2);
 }
 
@@ -65,4 +65,41 @@ h1 {
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 3.75rem;
+  }
+
+  h2 {
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+
+  header > p {
+    margin-top: 1rem;
+  }
+
+  #supervisor {
+    margin-top: 4.5rem;
+  }
+
+  img {
+    height: 4rem;
+  }
+
+  .card > p {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+  }
+
+  .card > h2 {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    margin-top: 1rem;
+  }
 }
