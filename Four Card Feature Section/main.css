@@ -65,7 +65,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 300px) {
   body {
     width: calc(100vw - 4rem);
     padding: 2rem;
